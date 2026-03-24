@@ -1,13 +1,2 @@
-Git Bash:
-git config --list
-git config --global user.name "Maria Eduarda"
-git config --global user.email "mariaaeduardadematos@gmail.com"
-
-Comandos simples do CMD
-cd Desktop
-git clone link_do_git
-git status
-git add nome_do_arquivo
-git commit -m "descrição"
-git push
-git pull
+Maria Eduarda de Matos
+Julia Maria
