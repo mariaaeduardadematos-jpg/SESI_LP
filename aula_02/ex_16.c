@@ -1,0 +1,25 @@
+/*
+16) Cálculo de Conta de Energia
+Leia o consumo em kWh:
+*/
+
+#include <stdio.h>
+
+int main() {
+    float consumo, valor;
+
+    printf("Digite o consumo em kWh: ");
+    scanf("%f", &consumo);
+
+    if (consumo <= 100) {
+        valor = consumo * 0.50;
+    } else if (consumo <= 200) {
+        valor = consumo * 0.75;
+    } else {
+        valor = consumo * 1.00;
+    }
+
+    printf("Valor da conta: R$ %.2f\n", valor);
+
+    return 0;
+}
